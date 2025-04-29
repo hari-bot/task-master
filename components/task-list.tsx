@@ -40,9 +40,6 @@ export function TaskList({ tasks, projectId, emptyState }: TaskListProps) {
             <div className="flex items-start justify-between">
               <div>
                 <CardTitle className="text-lg">{task.title}</CardTitle>
-                <CardDescription className="line-clamp-1">
-                  {task.description || "No description provided"}
-                </CardDescription>
               </div>
               <div
                 className={`rounded-full px-2.5 py-0.5 text-xs font-medium ${
